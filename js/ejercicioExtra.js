@@ -94,6 +94,7 @@ document.addEventListener("DOMContentLoaded", () => {
         }
         
         salida.innerHTML += "'" + frase + "'" + "<br>" + "<br>";
-        salida.innerHTML += "Tamaño actual de la ventana: " + mostrarTamañoVentana();
+        salida.innerHTML += "Tamaño actual de la ventana (en píxeles): " + mostrarTamañoVentana();
+        //He añadido las palabras "(en píxeles)" en la parte textual de la salida
     }
 });
