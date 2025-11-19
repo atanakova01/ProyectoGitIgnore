@@ -94,6 +94,8 @@ document.addEventListener("DOMContentLoaded", () => {
         }
         
         salida.innerHTML += "'" + frase + "'" + "<br>" + "<br>";
-        salida.innerHTML += "Tamaño actual de la ventana: " + mostrarTamañoVentana();
+        salida.innerHTML +=  mostrarTamañoVentana();
+        //MODIFICACIÓN PARA LA PRUEBA
+        //He quitado esto : "Tamaño actual de la ventana: " + 
     }
 });
