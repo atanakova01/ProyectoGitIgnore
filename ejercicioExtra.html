@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+        <title>Tarea DWEC03.01.Extra</title>
+        <script type="module" src="./js/ejercicioExtra.js"></script>
+        <script type="module" src="./js/funciones_ejercicioExtra.js"></script>
+    </head>
+    <body>
+        <h2>Objetos predefinidos. Ejercicio Extra</h2>
+
+        <p><i>Nombre y apellidos:</i> Alena Tanakova<br>
+        <i>Curso:</i> DAW2 2025-2026</p>
+        <p>Desarrolla una aplicación web que ayude al usuario a controlar sus hábitos saludables. La
+           aplicación debe calcular y mostrar:
+           <ol>
+            <li>El Índice de Masa Corporal (IMC) y su clasificación.</li>
+            <li>Cuántos días faltan hasta su próximo cumpleaños.</li>
+            <li>Una frase motivacional aleatoria.</li>
+            <li>El tamaño actual de la ventana del navegador.</li>
+           </ol>
+           El alumno deberá usar funciones propias y los objetos predefinidos del lenguaje, además de
+           realizar la manipulación del DOM y el uso de propiedades del BOM.</p>
+        <br><br>
+        <label>Nombre: <input type="text" id="nombre" /></label><br>
+        <label>Peso (en kg): <input type="text" id="peso" /></label><br>
+        <label>Estatura (en metros): <input type="text" id="estatura" /></label><br>
+        <label>Fecha de nacimiento: <input type="date" id="fechaNacimiento" /></label><br><br>
+        <button type="submit" id="btnCalcular">Calcular</button><br><br>
+
+        <p id="salida"></p>
+        <p id="error" style="font-weight: bold; color: red"></p>
+        <br><br>
+        
+    </body>
+</html>
